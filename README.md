@@ -1,32 +1,27 @@
-# Asset Tagging and Recognition Model for Broadcast Monitoring
-This project is part of a larger broadcast monitoring framework that aims to help tag and recognize audio assets in broadcast media, such as TV shows, news clips, and commercials. The goal is to enable broadcasters and advertisers to quickly and accurately identify and track their assets across different channels and media platforms.
+# Data Preparation and Handling with Python
 
-This project uses Jupyter Notebook to break down the ste-by-step process as will be implemented in the framework to show the inner working s of the framework.
+This repository contains a Jupyter Notebook with Python code snippets to improve productivity in everyday development tasks. These include data preparations and conversions. The notebooks cover a range of topics, including data cleaning, data transformation, and data visualization.
 
-The asset tagging and recognition model is built using Python and Jupyter notebooks, and will utilize various open-source algorithms to analyze and classify broadcast media content. The model will also interact with ML models trained on a large dataset of labeled assets, and is designed to work with different types of media formats and sources.
+## Libraries and tools
 
+Jupyter Notebook
+pandas
 
-## Requirements
-To run the asset tagging and recognition model, you will need to have the following installed:
+# Installation
 
-- Python 3.6 or higher
-- Jupyter Notebook
-- NumPy
-- Matplotlib
-- FFmpeg
-- pydub
+To use the notebook, you will need to have Python and Jupyter Notebook installed on your system. You can install the jupyter package on your system using the following command:
 
+```
+python3
+pip install jupyter
+```
 
-## Getting Started
-To get started with the asset tagging and recognition model, you can follow these steps:
+# Usage
 
-- Clone the repository to your local machine.
-- Install the required packages by running pip install -r requirements.txt.
-- Copy an audio segment that will be processed for watermarking and/or fingerprinting into the same directory as the Jupyter notebook.
-- Open the Jupyter notebook bmonitor.ipynb and in the first cell, replace **Sanchez - Mama (African Pride).mp3** with the name of the audio file you copied into the directory in the previous step.
-- Run the first notebook cells to load the audio file you copied into the directory.
-- Run the consecutive cells to fingerprint and watermark the audio file.
-- Having generated a fingerprint and/or watermarked the audio, youmay run inferences on broadcasts to detect if the audio segment you processed may be within the audio stream.
+To run the notebook, clone this repository to your local machine and launch Jupyter Notebook. I recommend using a virtual environment to install the libraries and dependencies.
+
+After installing the libraries implemented on a cell of interest, you can then navigate to the cell and run the code snippet.
 
 ## License
+
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
