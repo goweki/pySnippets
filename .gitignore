@@ -1,0 +1,7 @@
+# ignore input and output files
+
+# ignore .env files
+.venv/
+
+# ignore signatures file
+output*
