@@ -1,5 +1,5 @@
 # ignore input and output files
-
+.xls
 # ignore .env files
 .venv/
 
