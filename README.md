@@ -1,11 +1,10 @@
-# Data Preparation and Handling with Python
+# python code snippets
 
 This repository contains a Jupyter Notebook with Python code snippets to improve productivity in everyday development tasks. These include data preparations and conversions. The notebooks cover a range of topics, including data cleaning, data transformation, and data visualization.
 
 ## Libraries and tools
 
 Jupyter Notebook
-pandas
 
 # Installation
 

@@ -2,6 +2,5 @@
 .xls
 # ignore .env files
 .venv/
-
-# ignore signatures file
+# ignore output folder
 output*
