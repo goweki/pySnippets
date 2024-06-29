@@ -4,3 +4,4 @@
 .venv/
 # ignore output folder
 output*
+*.mp3
