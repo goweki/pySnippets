@@ -1,5 +1,6 @@
 # ignore input and output files
-.xls
+*.xls
+*.xlsx
 # ignore .env files
 .venv/
 # ignore output folder
