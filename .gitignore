@@ -6,3 +6,5 @@
 # ignore output folder
 output*
 *.mp3
+# ignore files larger than 10MB
+*/2large/
